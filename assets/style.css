@@ -1,0 +1,16 @@
+body {
+    background-color: darkgray;
+}
+.pic {
+    width: 350px;
+    height: 500px;
+    padding-right: 3%;
+}
+.row {
+    padding-top: 3%;
+}
+
+footer {
+    text-align: center;
+}
+

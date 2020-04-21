@@ -1,13 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Bio - Tim Sherry</title>
 </head>
+
 <body>
-    <h1>THIS IS AN AWESOME PORTFOLIO!</h1>
-    <h2>still empty though...</h2>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Tim Sherry</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav ">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Bio<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <img class='pic' src="assets/imgs/gradPic.jpg" alt="">
+            </div>
+            <div class="col-md-8 bio">
+                <h1>About Me</h1>
+                <p>Thanks for checking out my portfolio, My name is Tim and I am a front-end developer originally from
+                    Orlando, FL. I recently graduated the UCF Coding Bootcamp where I learned skills in MongoDB,
+                    Express, React, Javascript and Node. I am currently working as a recruiter for a staffing agency
+                    that contracts out healthcare professionals to hospitals across the country. I also am working as a
+                    Teaching Assistant for the same boot camp that I graduated from. I am married and in my spare time I
+                    enjoy going to the movies or playing video games. </p>
+                <p>My goal is to find a position where I can utilize my new skills and continue to learn more as this
+                    industry continues to grow and evolve. </p>
+
+                <!-- contact information -->
+                <div class="row">
+                    <h2>Here are some ways you can contact me:</h2>
+                    <div class="col-sm-7">
+                <ul class="d-flex justify-content-between" style="list-style: none;">
+                    <li><a href="https://www.linkedin.com/in/tim-sherry-698949139/">LinkedIn</a></li>
+                    <li><a href="https://github.com/tsherry82">GitHub</a></li>
+                    <!-- link to email -->
+                    <li><a href="mailto:tsherry82@gmail.com">E-mail</a></li>
+                </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        Copyright
+    </footer>
 </body>
+
 </html>

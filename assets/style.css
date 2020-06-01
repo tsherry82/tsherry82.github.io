@@ -1,21 +1,26 @@
 body {
     background-color: darkgray;
-}
-.pic {
-    width: 350px;
-    height: 500px;
-    padding-right: 3%;
-}
-.row {
-    padding-top: 3%;
+    color: white;
 }
 
-footer {
+.gradPic {
+    width: 450px;
+    height: 550px;
+    box-shadow: 5px 5px #ddd;
+    margin: 10px;
+}
+
+.nav {
+    display: inline;
+    list-style: none;
+}
+
+.bio {
+    margin: auto;
     text-align: center;
+    font-size: large;
 }
 
-.contact {
-    padding-top: 5%;
+.footer {
+    margin-top: 10px;
 }
-
-

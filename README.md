@@ -1,3 +1,3 @@
-# tsherry82.github.io
+## tsherry82.github.io
 
-Here is my professional portfolio page
+This is my professional portfolio

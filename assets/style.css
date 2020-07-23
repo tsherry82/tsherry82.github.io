@@ -1,5 +1,5 @@
 body{
-    background-color: slategray;
+    background-image: url('./img/woodBackground.jpg');;
     font-family: monospace;
     margin-bottom: 100px;
     
@@ -220,7 +220,7 @@ li{
 }
 
 #project-github:hover{
-    color: darkseagreen;
+    color: white;
 }
 
 .res-title{
@@ -237,7 +237,7 @@ li{
 }
 
 .resume-dl:hover{
-    color: darkseagreen;
+    color: white;
 }
 
 .dl-btn{
@@ -300,7 +300,7 @@ h6{
 
 .connect-btn{
     font-size: 50px;
-    color: black;
+    color: white;
 }
 
 .connect-col{
@@ -308,4 +308,8 @@ h6{
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+h1 {
+    color: white;
 }

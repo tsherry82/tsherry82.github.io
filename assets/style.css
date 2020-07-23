@@ -1,34 +1,311 @@
-body {
-    background-color: darkgray;
-    color: white;
+body{
+    background-color: slategray;
+    font-family: monospace;
+    margin-bottom: 100px;
+    
 }
 
-.gradPic {
-    width: 450px;
-    height: 550px;
-    box-shadow: 5px 5px #ddd;
-    margin: 10px;
+header{
+    margin-bottom: 30px;
 }
 
-.nav {
-    display: inline;
-    list-style: none;
+.mynav{
+    height: 67px;
 }
 
-.bio {
-    margin: auto;
+.jumbotron-fluid{
+    padding-top: 22px;
+    padding-bottom: 0px;
+    background-color: transparent;
+    margin-bottom: 0;
+}
+
+.display-4{
     text-align: center;
+    margin-bottom: 15px;
+}
+
+p{
+    line-height: 25px;
+    color: black;
     font-size: large;
 }
 
-.footer {
-    margin-top: 10px;
-}
-
-.card-text {
+h2{
     color: black;
 }
 
-.card {
-    margin: 20px auto;
+h3{
+    text-align: center;
+}
+
+.project-title{
+    text-align: center;
+    font-style: italic;
+}
+
+hr{
+    border-color: whitesmoke;
+    border-width: 3px;
+}
+
+.container-index{
+    display: flex;
+}
+
+.portfolio-card{
+    height: 500px;
+    width: 350px;
+    background-color: gray;
+    border-radius: 20px;
+}
+
+.bio{
+    margin-top: 0;
+}
+
+.about-me{
+    width: 80%;
+}
+
+.abt-crd{
+    width: 60%;
+}
+
+.about-card{
+    border-radius: 20px;
+}
+
+.card{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 25px;
+    border-radius: 20px;
+}
+
+.card-text{
+    text-align: center;
+}
+
+.card-body{
+    background-color: gray;
+}
+
+footer{
+    position: absolute;
+    color: rgba(255, 255, 255, .5);
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.footer-social{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.footer-social ul{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    list-style: none;
+}
+
+.footer-social ul li{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px;
+    font-size: 35px;
+}
+
+.footer-social ul li a{
+    font-size: 30px;
+    color: rgba(255, 255, 255, .5);
+}
+
+.footer-social ul li a i{
+    line-height: 50px;
+    font-size: 30px;
+}
+
+.footer-bottom{
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 5px;
+}
+
+.footer-bottom p{
+    margin: 0px;
+    color: black;
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    padding-right: 15px;
+    padding-left: 15px;
+    color: black;
+} 
+
+#fa-link{
+    font-size: 222px;
+    border: none;
+}
+
+.links{
+    background-color: transparent;
+    padding: 0;
+    margin-bottom: 40px;
+    border: transparent;
+}
+
+.contact-btns{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#contact-link{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.contact-links{
+    color: black;
+}
+
+.contact-links:hover{
+    color: darkseagreen;
+}
+
+.carousel-control-next-icon{
+    background-color: black;
+}
+
+.carousel-control-prev-icon{
+    background-color: black;
+}
+
+.project-link{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: none;
+}
+
+.project-img{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    width: 304px;
+    height: 200px;
+}
+
+#project-github{
+    color: black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30px;
+}
+
+#project-github:hover{
+    color: darkseagreen;
+}
+
+.res-title{
+    padding-left: 15px;
+}
+
+.resume-dl{
+    color: black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 115px;
+    padding-left: 15px;
+}
+
+.resume-dl:hover{
+    color: darkseagreen;
+}
+
+.dl-btn{
+    font-size: 150px;
+    margin-top: 15px;
+}
+
+a{ 
+    font-size: 30px;
+    text-align: center;
+}
+
+a:hover{
+    color: darkseagreen;    
+}
+
+label{
+    color: whitesmoke;
+}
+
+.portfolio-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.port-bio{
+    height:100px;
+    width:320px;;
+    overflow:auto;
+}
+
+h6{
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: large;
+  margin-bottom: 0;
+}
+
+.top-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    width: 450px;
+    height: 550px;
+}
+
+.connect-link{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    width: 44px;
+}
+
+.connect-btn{
+    font-size: 50px;
+    color: black;
+}
+
+.connect-col{
+    width: 55px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }

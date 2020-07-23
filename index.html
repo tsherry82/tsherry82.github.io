@@ -2,46 +2,156 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>bio</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <script src="https://kit.fontawesome.com/32e558d214.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">bio</a>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link" href="./portfolio.html">portfolio</a>
-            </div>
-        </div>
-    </nav>
+  <div class="container-fluid">
+    <img class="top-img" src='assets/img/gradPic.jpg'>
 
+    <div class="jumbotron jumbotron-fluid w3-animate-zoom">
+      <div class="container">
+        <h1 class="display-4">About Me</h1>
+      </div>
+    </div>
+    <div class="card about-me w3-animate-zoom">
+      <div class="card-body about-card">
+        <h5 class="card-text bio w3-animate-zoom">
+          <p>Thanks for checking out my portfolio, My name is Tim Sherry and I am a front-end developer originally from
+            Orlando, FL. I recently graduated the UCF Coding Bootcamp where I learned skills in MongoDB,Express,
+            React, Javascript and Node. I am currently working as a Teaching Assistant for the same boot camp
+            that I graduated from. In my spare time I enjoy going to the movies or playing video games.</p>
+
+          <p>My goal is to find a position where I can utilize my new skills and continue to learn more as this
+            industry continues to grow and evolve.</p>
+        </h5>
+      </div>
+    </div>
+
+    <div class="jumbotron jumbotron-fluid w3-animate-zoom">
+      <div class="container">
+        <h1 class="display-4">Projects</h1>
+      </div>
+    </div>
     <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <img class="gradPic" src="assets/img/gradPic.jpg" alt="gradPic">
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="card portfolio-card w3-animate-zoom">
+            <div class="portfolio-img">
+              <a href="https://tsherry82.github.io/ColorGame/" class="project-link" target="blank"><img
+                  src="assets/img/rgbColorGame.png" class="project-img"></a>
             </div>
-            <div class="col-md-6 bio">
-                <h2>about me</h2>
-                <p>Thanks for checking out my portfolio, My name is Tim and I am a front-end developer originally from
-                    Orlando, FL. I recently graduated the UCF Coding Bootcamp where I learned skills in MongoDB,Express,
-                    React, Javascript and Node. I am currently working as a Teaching Assistant for the same boot camp
-                    that I graduated from. In my spare time I enjoy going to the movies or playing video games.</p>
-
-                <p>My goal is to find a position where I can utilize my new skills and continue to learn more as this
-                    industry continues to grow and evolve.</p>
+            <div class="card-body-portfolio">
+              <h4 class="card-title project-title">RGB Color Game</h4>
+              <h6 id="port-bio" class="card-text">An application that helps users learn how the rgb() color patterns
+                work, which is a color scheme used for styling pages. Using the rgb() color patterns it opens up the spectrum of colors that developers can use while styling website. Playing this game is an easy way to learn how these patterns work, with an easy mode and a hard mode. </h6>
+              <br>
+              <a href="https://github.com/tsherry82/ColorGame" id="project-github" target="blank"><i
+                  class="fab fa-github"></i></a>
             </div>
+          </div>
         </div>
-        <div class="d-flex justify-content-around footer">
-            <a href="https://www.linkedin.com/in/tim-sherry-698949139/">LinkedIn</a>
-            <a href="https://github.com/tsherry82">Github</a>
-            <a href="mailto:tsherry82@gmail.com">Email</a>
+        <div class="col s12 m4">
+          <div class="card portfolio-card w3-animate-zoom">
+            <div class="portfolio-img">
+              <a href="https://tsherry82.github.io/simpleTodoList/" class="project-link" target="blank"><img
+                  src="assets/img/simpleTodoList.png" class="project-img"></a>
+            </div>
+            <div class="card-body-portfolio">
+              <h4 class="card-title project-title">Simple Todo List</h4>
+              <h6 id="port-bio" class="card-text">This is a simple Todo list built out using jQuery, JS HTML and CSS
+                with some hard coded tasks already plugged in. WIth this project I wanted to explore more during styling and CSS and utilize some icons used from Font Awesome</h6>
+              <br>
+              <a href="https://github.com/tsherry82/simpleTodoList" id="project-github" target="blank"><i
+                  class="fab fa-github"></i></a>
+            </div>
+          </div>
         </div>
+        <div class="col s12 m4">
+          <div class="card portfolio-card w3-animate-zoom">
+            <div class="portfolio-img">
+              <a href="https://tsherry82.github.io/PasswordGenerator/" class="project-link" target="blank"><img
+                  src="assets/img/passwordGen.png" class="project-img"></a>
+            </div>
+            <div class="card-body-portfolio">
+              <h4 class="card-title project-title">Password Generator</h4>
+              <h6 id="port-bio" class="card-text">With password security tightening up every so often, here is an application that can help you generate a password based off of parameters that you set, such as capitalizations, numbers and symbols. In todays world password security is more important than ever, using this application can help you with a strong password with a few easy clicks!</h6>
+              <br>
+              <a href="https://github.com/tsherry82/PasswordGenerator" id="project-github" target="blank"><i
+                  class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card portfolio-card w3-animate-zoom">
+            <div class="portfolio-img">
+              <a href="https://tsherry82.github.io/Giphy/" class="project-link" target="blank"><img
+                  src='assets/img/Giphy.png' class="project-img"></a>
+            </div>
+            <div class="card-body-portfolio">
+              <h4 class="card-title project-title">Giphy Search</h4>
+              <h6 id="port-bio" class="card-text">This application is a search engine that uses the Giphy API and allows
+                you to generate buttons and with the click of said button, generate 25 gifs related to the button you
+                clicked!.</h6>
+              <br>
+              <a href="https://github.com/tsherry82/Giphy" id="project-github" target="blank"><i
+                  class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card portfolio-card w3-animate-zoom">
+            <div class="portfolio-img">
+              <a href="https://tsherry82.github.io/Firebase/" class="project-link" target="blank"><img
+                  src='assets/img/Firebase.png' class="project-img"></a>
+            </div>
+            <div class="card-body-portfolio">
+              <h4 class="card-title project-title">Train Scheduler</h4>
+              <h6 id="port-bio" class="card-text">Using Firebase, this application lets you track and schedule new trains departing from the Gotham City Train station, you are able to check its arriving time, how long the trip normally takes, its destination and how long until the train arrives.</h6>
+              <br>
+              <a href="https://github.com/tsherry82/Firebase" id="project-github" target="blank"><i
+                  class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
+  </div>
+  <footer>
+    <div class="footer-social">
+      <ul>
+        <li><a href="https://github.com/tsherry82" target="blank" class="connect-link"><i
+              class="connect-btn fab fa-github-square"></i></a></li>
+        <li><a href="mailto:tsherry82@gmail.com" class="connect-link"><i class="connect-btn fas fa-envelope"></i></a>
+        </li>
+        <li><a href="https://www.linkedin.com/in/tim-sherry-698949139/" target="blank" class="connect-link"><i
+              class="connect-btn fab fa-linkedin"></i></a></li>
+        <li><a href='assets/Updated resume.2020.pdf' target="blank" class="connect-link"><i
+              class=" connect-btn fas fa-file-download dl-btn"></i></a></li>
+      </ul>
+    </div>
+    <div class="footer-bottom">
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
 
 </body>
 
